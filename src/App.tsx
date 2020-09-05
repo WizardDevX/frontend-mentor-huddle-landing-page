@@ -1,10 +1,16 @@
 import React from "react";
-import { Container } from "./components/styles";
+
+import Banner from "./components/Banner/Banner";
+import Cards from "./components/Card/Cards";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
 	return (
-		<Container>
-		</Container>
+		<>
+			<Banner />
+			<Cards />
+			<Footer />
+		</>
 	);
 };
 
